@@ -1,0 +1,13 @@
+mov1 = input("inter the movie 1: ")
+mov2 = input(" inter the second movie ")
+
+mov3 = input("inte rthe 3rd movie ")
+
+
+ltm = []
+ltm.append("i")
+ltm.extend(["toilet", "ltm"])
+ltm = ltm + [mov1, mov2, mov3]
+
+
+print(ltm)
